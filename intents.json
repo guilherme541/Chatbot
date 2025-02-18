@@ -1,0 +1,86 @@
+{
+    "intents": [
+        {
+            "tag": "saudacao",
+            "patterns": [
+                "Ola",
+                "Oi",
+                "Bom dia",
+                "Boa tarde",
+                "Boa noite",
+                "Tudo bem",
+                "Como vai"
+            ],
+            "responses": [
+                "Olá! Sou o assistente do PIPE FAPESP. Como posso ajudar?",
+                "Oi! Estou aqui para tirar suas dúvidas sobre o PIPE. Em que posso auxiliar?"
+            ]
+        },
+        {
+            "tag": "info_pipe",
+            "patterns": [
+                "O que é o PIPE",
+                "Me explica o PIPE",
+                "Pode me falar sobre o PIPE",
+                "Como funciona o PIPE",
+                "Qual o objetivo do PIPE"
+            ],
+            "responses": [
+                "O PIPE (Pesquisa Inovativa em Pequenas Empresas) é um programa da FAPESP que apoia pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Quer saber sobre as fases do programa?"
+            ]
+        },
+        {
+            "tag": "fases",
+            "patterns": [
+                "Quais são as fases",
+                "Me explica as fases",
+                "Fases do programa",
+                "Como são as fases",
+                "Fala das fases"
+            ],
+            "responses": [
+                "O PIPE tem 3 fases: Fase 1 (até R$200.000,00 para viabilidade), Fase 2 (até R$1.000.000,00 para desenvolvimento) e Fase 3 (desenvolvimento comercial). Quer saber os requisitos para participar?"
+            ]
+        },
+        {
+            "tag": "requisitos",
+            "patterns": [
+                "Quais os requisitos",
+                "O que preciso ter",
+                "Como participar",
+                "Posso participar",
+                "Quem pode submeter"
+            ],
+            "responses": [
+                "Para participar do PIPE você precisa: 1) Ser pequena empresa em SP, 2) Ter até 250 funcionários, 3) Ter pesquisador responsável qualificado, 4) Ter projeto inovador. Quer saber como submeter?"
+            ]
+        },
+        {
+            "tag": "submissao",
+            "patterns": [
+                "Como submeter",
+                "Como enviar",
+                "Processo de submissão",
+                "Documentação necessária",
+                "O que preciso enviar"
+            ],
+            "responses": [
+                "Para submeter ao PIPE você precisa preparar: projeto de pesquisa, orçamento, currículo da equipe e documentos da empresa. A submissão é pelo sistema SAGe."
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patterns": [
+                "Tchau",
+                "Até logo",
+                "Obrigado",
+                "Valeu",
+                "Até mais"
+            ],
+            "responses": [
+                "Até logo! Boa sorte com sua proposta PIPE!",
+                "Tchau! Se precisar de mais informações sobre o PIPE, estou à disposição!"
+            ]
+        }
+    ]
+}
