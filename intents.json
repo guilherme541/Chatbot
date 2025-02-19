@@ -26,7 +26,7 @@
                 "Qual o objetivo do PIPE"
             ],
             "responses": [
-                "O PIPE (Pesquisa Inovativa em Pequenas Empresas) é um programa da FAPESP que apoia pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. Quer saber sobre as fases do programa?"
+                "O PIPE (Pesquisa Inovativa em Pequenas Empresas) é um programa da FAPESP que apoia pesquisa científica e tecnológica em pequenas empresas no Estado de São Paulo. O objetivo é fomentar a inovação e aumentar a competitividade das empresas. Quer saber sobre as fases do programa?"
             ]
         },
         {
@@ -39,7 +39,7 @@
                 "Fala das fases"
             ],
             "responses": [
-                "O PIPE tem 3 fases: Fase 1 (até R$200.000,00 para viabilidade), Fase 2 (até R$1.000.000,00 para desenvolvimento) e Fase 3 (desenvolvimento comercial). Quer saber os requisitos para participar?"
+                "O PIPE tem 3 fases principais e um estágio adicional:\n- **Fase 1**: Viabilidade técnico-científica (até 9 meses, até R$ 300.000).\n- **Fase 2**: Desenvolvimento da pesquisa (até 24 meses, até R$ 1.500.000).\n- **PIPE Invest**: Aceleração para o mercado (até 24 meses, até R$ 1.500.000).\n- **Fase 3**: Desenvolvimento comercial e industrial.\nQuer saber os requisitos para participar?"
             ]
         },
         {
@@ -52,7 +52,7 @@
                 "Quem pode submeter"
             ],
             "responses": [
-                "Para participar do PIPE você precisa: 1) Ser pequena empresa em SP, 2) Ter até 250 funcionários, 3) Ter pesquisador responsável qualificado, 4) Ter projeto inovador. Quer saber como submeter?"
+                "Para participar do PIPE você precisa:\n1) Ser uma pequena empresa com sede no estado de São Paulo.\n2) Ter até 250 funcionários.\n3) Ter um pesquisador responsável qualificado.\n4) Ter um projeto de pesquisa inovador com potencial de mercado.\nQuer saber como submeter uma proposta?"
             ]
         },
         {
@@ -65,7 +65,40 @@
                 "O que preciso enviar"
             ],
             "responses": [
-                "Para submeter ao PIPE você precisa preparar: projeto de pesquisa, orçamento, currículo da equipe e documentos da empresa. A submissão é pelo sistema SAGe."
+                "Para submeter ao PIPE, siga os passos:\n1) Prepare um projeto detalhado contendo objetivo, metodologia, impacto e orçamento.\n2) Inclua currículo do pesquisador responsável e equipe.\n3) Empresas já constituídas devem apresentar documentação jurídica.\n4) A submissão é feita pelo sistema SAGe da FAPESP.\nDúvidas sobre a documentação necessária?"
+            ]
+        },
+        {
+            "tag": "empresa_necessaria",
+            "patterns": [
+                "Preciso ter empresa",
+                "Preciso abrir empresa",
+                "Posso submeter sem empresa"
+            ],
+            "responses": [
+                "Não é necessário já ter uma empresa constituída para submeter uma proposta ao PIPE. Startups ainda não formalizadas podem submeter propostas, mas caso sejam aprovadas, precisarão abrir formalmente a empresa antes da concessão dos recursos."
+            ]
+        },
+        {
+            "tag": "dedicacao_exclusiva",
+            "patterns": [
+                "Preciso me dedicar 100%",
+                "Posso trabalhar em outra coisa",
+                "Preciso dedicação exclusiva"
+            ],
+            "responses": [
+                "Não é obrigatório dedicação exclusiva, mas o Pesquisador Responsável deve ter pelo menos 24 horas semanais dedicadas ao projeto na empresa. Se solicitar uma Bolsa PE da FAPESP, a dedicação deve ser de 40 horas semanais."
+            ]
+        },
+        {
+            "tag": "financiamento",
+            "patterns": [
+                "O PIPE é um empréstimo",
+                "Preciso pagar de volta",
+                "A FAPESP fica com parte da empresa"
+            ],
+            "responses": [
+                "O apoio da FAPESP não é um empréstimo e não precisa ser devolvido. Além disso, a FAPESP não adquire participação na empresa nem na propriedade intelectual do projeto."
             ]
         },
         {
